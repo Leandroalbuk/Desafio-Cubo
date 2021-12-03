@@ -30,7 +30,7 @@ describe('Preencher Cadastro', ()=>{
 		cy.get('[alt="Bicicleta"]').click();
 		cy.get('[class="dropzone"]').click();
 		cy.get('input').type('https://s2.glbimg.com/IJGc_Gg52y4cHAC7S65HS3k7qXE=/0x0:400x283/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2020/B/y/SaMJ6lSxCDVjlm98drxQ/2015-04-08-cnh-bean.jpg');
-		cy.get('[class="button-success"]').click();        	
+		cy.get('[class="button-success"]').click(); 
 		
 	});
 });
